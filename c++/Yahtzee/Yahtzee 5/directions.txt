@@ -1,0 +1,36 @@
+Yahtzee is a game of rolling dice and scoring
+based off of your rolls. You can re roll up
+to two times after your orginal roll. The 
+purpose of the game to score the highest score
+possible. The upper section is scored by
+adding up dice depending on which number is
+selected. For Ex: if you rolled a 1, 2, 2,
+4, and a 2. If you picked two, you would 
+score a 6 for the 2's spot. Also, if you
+get 63 points or more in the uppersection
+you get a bonus 35 points.
+
+You can reroll individual dies to shoot for 
+certain numbers to help increase your score.
+
+3 of a kind is any three dies that are the same.
+
+4 of a kind is any four dies that are the same.
+
+A Small Straight is series of any four numbers
+ex. 1,2,3,4.
+
+A Large Straight is a series of any five numbers
+ex. 1,2,3,4,5.
+
+
+If you score a Yahtzee, all five die being
+the same number, you will earn 50 points.
+For every Yahtzee you roll after that you
+score 100 points, and get to assign those 
+die to any part of the table.
+
+Chance can be scored at any point and all five 
+die are totaled together for its score.
+
+Have fun!

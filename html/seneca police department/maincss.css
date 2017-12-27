@@ -1,0 +1,85 @@
+.top-buffer
+{
+  margin-top: 10px;
+}
+
+.chief-border
+{
+  border-left: 1px dotted black;
+  border-bottom: 1px dotted black
+}
+
+.sidenav-border
+{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black
+}
+
+#badge
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+body
+{
+  font-family: georgia
+}
+
+hr
+{
+  border-top: 1px solid black;
+}
+
+td a
+{
+}
+
+img.topbar
+{
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+footer
+{
+  width:auto;
+  font-size: 16px;
+  color:white;
+  background-color: #083570
+}
+
+.img-responsive
+{
+  width: auto;
+}
+
+@media screen and (max-width: 1200px)
+{
+  #badge
+  {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 788px)
+{
+  .chief-border
+  {
+    border-top: 1px dotted black;
+    padding-top: 5px;
+  }
+
+  .sidenav-border
+  {
+    border-bottom: 1px solid black;
+  }
+
+  .logo
+  {
+    display: none;
+  }
+
+}

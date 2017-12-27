@@ -1,0 +1,32 @@
+﻿Build started 4/28/2015 2:20:31 PM.
+     1>Project "C:\Users\pjordan\Documents\DropBoxGoodlookng1\Dropbox\SWU\CPSC1903\Cromer\Project VI\Yahtzee 5\Yahtzee 5\Yahtzee 5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dice.cpp randgen.cpp "Yahtzee 5.cpp"
+         Yahtzee 5.cpp
+     1>c:\users\pjordan\documents\dropboxgoodlookng1\dropbox\swu\cpsc1903\cromer\project vi\yahtzee 5\yahtzee 5\strutils.cpp(421): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\pjordan\documents\dropboxgoodlookng1\dropbox\swu\cpsc1903\cromer\project vi\yahtzee 5\yahtzee 5\strutils.cpp(427): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\pjordan\documents\dropboxgoodlookng1\dropbox\swu\cpsc1903\cromer\project vi\yahtzee 5\yahtzee 5\strutilstemplate.cpp(90): warning C4244: '=' : conversion from 'biggestType' to 'long', possible loss of data
+                 c:\users\pjordan\documents\dropboxgoodlookng1\dropbox\swu\cpsc1903\cromer\project vi\yahtzee 5\yahtzee 5\strutils.cpp(637) : see reference to function template instantiation 'bool IsNum<long>(const std::string &,Type &)' being compiled
+                 with
+                 [
+                     Type=long
+                 ]
+     1>c:\users\pjordan\documents\dropboxgoodlookng1\dropbox\swu\cpsc1903\cromer\project vi\yahtzee 5\yahtzee 5\strutilstemplate.cpp(90): warning C4244: '=' : conversion from 'biggestType' to 'int', possible loss of data
+                 c:\users\pjordan\documents\dropboxgoodlookng1\dropbox\swu\cpsc1903\cromer\project vi\yahtzee 5\yahtzee 5\strutils.cpp(653) : see reference to function template instantiation 'bool IsNum<int>(const std::string &,Type &)' being compiled
+                 with
+                 [
+                     Type=int
+                 ]
+         randgen.cpp
+         dice.cpp
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pjordan\Documents\DropBoxGoodlookng1\Dropbox\SWU\CPSC1903\Cromer\Project VI\Yahtzee 5\Debug\Yahtzee 5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pjordan\Documents\DropBoxGoodlookng1\Dropbox\SWU\CPSC1903\Cromer\Project VI\Yahtzee 5\Debug\Yahtzee 5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pjordan\Documents\DropBoxGoodlookng1\Dropbox\SWU\CPSC1903\Cromer\Project VI\Yahtzee 5\Debug\Yahtzee 5.lib" /MACHINE:X86 Debug\dice.obj
+         Debug\randgen.obj
+         "Debug\Yahtzee 5.obj"
+         Yahtzee 5.vcxproj -> C:\Users\pjordan\Documents\DropBoxGoodlookng1\Dropbox\SWU\CPSC1903\Cromer\Project VI\Yahtzee 5\Debug\Yahtzee 5.exe
+     1>Done Building Project "C:\Users\pjordan\Documents\DropBoxGoodlookng1\Dropbox\SWU\CPSC1903\Cromer\Project VI\Yahtzee 5\Yahtzee 5\Yahtzee 5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.11

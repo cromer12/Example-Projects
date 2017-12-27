@@ -1,0 +1,41 @@
+c:\users\bryan\documents\visual studio 2015\Projects\Battleship\Battleship\bin\Debug\Battleship.exe.config
+c:\users\bryan\documents\visual studio 2015\Projects\Battleship\Battleship\bin\Debug\Battleship.exe
+c:\users\bryan\documents\visual studio 2015\Projects\Battleship\Battleship\bin\Debug\Battleship.pdb
+c:\users\bryan\documents\visual studio 2015\Projects\Battleship\Battleship\obj\Debug\Battleship.csprojResolveAssemblyReference.cache
+c:\users\bryan\documents\visual studio 2015\Projects\Battleship\Battleship\obj\Debug\Battleship.Properties.Resources.resources
+c:\users\bryan\documents\visual studio 2015\Projects\Battleship\Battleship\obj\Debug\Battleship.csproj.GenerateResource.Cache
+c:\users\bryan\documents\visual studio 2015\Projects\Battleship\Battleship\obj\Debug\Battleship.exe
+c:\users\bryan\documents\visual studio 2015\Projects\Battleship\Battleship\obj\Debug\Battleship.pdb
+c:\users\bryan\documents\visual studio 2015\Projects\Battleship\Battleship\obj\Debug\Battleship.Form2.resources
+C:\Users\Bryan\documents\visual studio 2015\Projects\Battleship\Battleship\obj\Debug\Battleship.Form.resources
+C:\Users\Bryan\Dropbox\Spring 2016\Battleship\Battleship\bin\Debug\Battleship.exe.config
+C:\Users\Bryan\Dropbox\Spring 2016\Battleship\Battleship\obj\Debug\Battleship.exe
+C:\Users\Bryan\Dropbox\Spring 2016\Battleship\Battleship\obj\Debug\Battleship.pdb
+C:\Users\Bryan\Dropbox\Spring 2016\Battleship\Battleship\bin\Debug\Battleship.exe
+C:\Users\Bryan\Dropbox\Spring 2016\Battleship\Battleship\bin\Debug\Battleship.pdb
+C:\Users\Bryan\Dropbox\Spring 2016\Battleship\Battleship\obj\Debug\Battleship.csprojResolveAssemblyReference.cache
+C:\Users\Bryan\Dropbox\Spring 2016\Battleship\Battleship\obj\Debug\Battleship.Form.resources
+C:\Users\Bryan\Dropbox\Spring 2016\Battleship\Battleship\obj\Debug\Battleship.Properties.Resources.resources
+C:\Users\Bryan\Dropbox\Spring 2016\Battleship\Battleship\obj\Debug\Battleship.csproj.GenerateResource.Cache
+C:\Users\Cromer\Dropbox\Spring 2016\Battleship\Battleship\bin\Debug\Battleship.exe.config
+C:\Users\Cromer\Dropbox\Spring 2016\Battleship\Battleship\obj\Debug\Battleship.exe
+C:\Users\Cromer\Dropbox\Spring 2016\Battleship\Battleship\obj\Debug\Battleship.pdb
+C:\Users\Cromer\Dropbox\Spring 2016\Battleship\Battleship\bin\Debug\Battleship.exe
+C:\Users\Cromer\Dropbox\Spring 2016\Battleship\Battleship\bin\Debug\Battleship.pdb
+C:\Users\Cromer\Dropbox\Spring 2016\Battleship\Battleship\obj\Debug\Battleship.csprojResolveAssemblyReference.cache
+C:\Users\Cromer\Dropbox\Spring 2016\Battleship\Battleship\obj\Debug\Battleship.Form.resources
+C:\Users\Cromer\Dropbox\Spring 2016\Battleship\Battleship\obj\Debug\Battleship.Properties.Resources.resources
+C:\Users\Cromer\Dropbox\Spring 2016\Battleship\Battleship\obj\Debug\Battleship.csproj.GenerateResource.Cache
+C:\Users\pjordan\Dropbox\SWU\CPSC2253\Cromer\OOP 1\Battleship\Battleship\bin\Debug\Battleship.exe.config
+C:\Users\pjordan\Dropbox\SWU\CPSC2253\Cromer\OOP 1\Battleship\Battleship\obj\Debug\Battleship.exe
+C:\Users\pjordan\Dropbox\SWU\CPSC2253\Cromer\OOP 1\Battleship\Battleship\obj\Debug\Battleship.pdb
+C:\Users\Cromer\Documents\examplecode\c#\Battleship\Battleship\bin\Debug\Battleship.exe.config
+C:\Users\Cromer\Documents\examplecode\c#\Battleship\Battleship\bin\Debug\Battleship.exe
+C:\Users\Cromer\Documents\examplecode\c#\Battleship\Battleship\bin\Debug\Battleship.pdb
+C:\Users\Cromer\Documents\examplecode\c#\Battleship\Battleship\obj\Debug\Battleship.csprojResolveAssemblyReference.cache
+C:\Users\Cromer\Documents\examplecode\c#\Battleship\Battleship\obj\Debug\Battleship.Form.resources
+C:\Users\Cromer\Documents\examplecode\c#\Battleship\Battleship\obj\Debug\Battleship.Properties.Resources.resources
+C:\Users\Cromer\Documents\examplecode\c#\Battleship\Battleship\obj\Debug\Battleship.csproj.GenerateResource.Cache
+C:\Users\Cromer\Documents\examplecode\c#\Battleship\Battleship\obj\Debug\Battleship.csproj.CoreCompileInputs.cache
+C:\Users\Cromer\Documents\examplecode\c#\Battleship\Battleship\obj\Debug\Battleship.exe
+C:\Users\Cromer\Documents\examplecode\c#\Battleship\Battleship\obj\Debug\Battleship.pdb
