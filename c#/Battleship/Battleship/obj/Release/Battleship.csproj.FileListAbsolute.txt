@@ -1,0 +1,10 @@
+C:\Users\Cromer\Documents\GitHub\Example-Projects\c#\Battleship\Battleship\bin\Release\Battleship.exe.config
+C:\Users\Cromer\Documents\GitHub\Example-Projects\c#\Battleship\Battleship\bin\Release\Battleship.exe
+C:\Users\Cromer\Documents\GitHub\Example-Projects\c#\Battleship\Battleship\bin\Release\Battleship.pdb
+C:\Users\Cromer\Documents\GitHub\Example-Projects\c#\Battleship\Battleship\obj\Release\Battleship.csprojResolveAssemblyReference.cache
+C:\Users\Cromer\Documents\GitHub\Example-Projects\c#\Battleship\Battleship\obj\Release\Battleship.Form.resources
+C:\Users\Cromer\Documents\GitHub\Example-Projects\c#\Battleship\Battleship\obj\Release\Battleship.Properties.Resources.resources
+C:\Users\Cromer\Documents\GitHub\Example-Projects\c#\Battleship\Battleship\obj\Release\Battleship.csproj.GenerateResource.Cache
+C:\Users\Cromer\Documents\GitHub\Example-Projects\c#\Battleship\Battleship\obj\Release\Battleship.csproj.CoreCompileInputs.cache
+C:\Users\Cromer\Documents\GitHub\Example-Projects\c#\Battleship\Battleship\obj\Release\Battleship.exe
+C:\Users\Cromer\Documents\GitHub\Example-Projects\c#\Battleship\Battleship\obj\Release\Battleship.pdb
