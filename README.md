@@ -1,7 +1,7 @@
 # Example-Projects
 Example Projects
 
-This repo contains projects displaying my abilities and experience with different languages. It will be sorted by language
+This repo contains projects displaying my abilities and experience with different languages. It will be sorted by language. Inside the C++ and C# files you find a release folder containing an excutable version of the project.
 
 Live Example Website:
 
