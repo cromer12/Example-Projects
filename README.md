@@ -16,5 +16,5 @@ Other Projects Include:
    https://cameroncromer.000webhostapp.com/FHP/FHP/fhp_home.php (Freedom's Hill Primer has yet to deploy the new site. This is what it would look like)
 
 bootstrap:
-  senecapd.com
+  http://www.senecapd.com/
 
