@@ -110,7 +110,8 @@ if ( $result->num_rows == 0 ){ // User doesn't exist
 			$_SESSION['username'] = $user['username'];
 			// This is how we'll know the user is logged in
 			$_SESSION['logged_in'] = true;
-			$_SESSION['permission'] = $user[userpermission];
+			$_SESSION['permission'] = $user['userpermission'];
+			$_SESSION['teamid'] = $user['userteamid'];
 			redirect("dashboard.php");
 		}
 		else {
@@ -130,6 +131,7 @@ function login_check_admin(){
 	if(!$_SESSION['logged_in'] && $_SESSION['permission'] == 2){
 		redirect('index.php');
 	}
+	return true;
 }
 
 //BACKEND FUNCTIONS START HERE
@@ -180,10 +182,8 @@ function get_admin(){
 				<a class="btn btn-warning btn-large btn-block mb-2" href="add_team.php">Create Team</a>
 			</div>
 			<div class="col-md-6">
-				<a class="btn btn-success btn-large btn-block" href="team_select.php">Sports List</a>
-				<a class="btn btn-success btn-large btn-block mb-2" href="team_select.php">Create Sport</a>
-				<a class="btn btn-success btn-large btn-block" href="game_list.php">Game List</a>
-				<a class="btn btn-success btn-large btn-block mb-2" href="add_game.php">Create Game</a>
+				<a class="btn btn-success btn-large btn-block" href="team_select.php">Sports List & Create Sport</a>
+				<a class="btn btn-success btn-large btn-block" href="game_list.php">Game List & Create Game</a>
 			</div>
 		</div>
 	</div>
@@ -205,10 +205,8 @@ function get_coach(){
 		<hr>
 		<div class="row">
 			<div class="col-md-12">
-				<a class="btn btn-success btn-large btn-block" href="sport_list.php">Sports List</a>
-				<a class="btn btn-success btn-large btn-block mb-2" href="add_sport.php">Create Sport</a>
-				<a class="btn btn-success btn-large btn-block" href="game_list.php">Game List</a>
-				<a class="btn btn-success btn-large btn-block mb-2" href="add_game.php">Create Game</a>
+			<a class="btn btn-success btn-large btn-block" href="team_select.php">Sports List & Create Sport</a>
+			<a class="btn btn-success btn-large btn-block" href="game_list.php">Game List & Create Game</a>
 			</div>
 		</div>
 	</div>
@@ -327,7 +325,7 @@ function get_team_select(){
 	  	</div>
 		<div class="col-lg-4">
 			<br><br>
-			<a class="btn btn-primary btn-block float-right" href="add_sport.php?id={$row['teamid']}">Select Team</a>
+			<a class="btn btn-primary btn-block float-right" href="sport_list.php?id={$row['teamid']}">Select Team</a>
 		</div>
 	  </div>
 
@@ -339,29 +337,23 @@ echo $team;
 	}
 }
 
-function get_sports_co(){
-	$query = query("SELECT * FROM sport");
+function get_sports_co($id){
+	$query = query("SELECT * FROM sportsco WHERE teamid = '$id'");
 	confirm($query);
-	
+	$team = NULL;
+
 	while($row = fetch_array($query)) {
 	$team = <<< DELIMETER
 
 	<hr>
 	  <div class="row text-center">
-	  	<div class="col-lg-4">
-			<h2>{$row['teamname']}</h2>
-			<a class="btn btn-primary btn-block float-right" href="team_update.php?id={$row['teamid']}">Update Team</a>
+	  	<div class="col-lg-6">
+			<h2>CoEd</h2>
+			<a class="btn btn-primary btn-block float-right" href="team_update.php?id={$row['teamid']}">Update Sport</a>
 		</div>
-		<div class="col-lg-4">
-			<a href="team.php">
-				<div class="card">
-					<img class="card-img-top my-auto img-fluid" src="{$row['teamimg']}" alt="Team Image">
-				</div>
-			</a>
-	  	</div>
-		<div class="col-lg-4">
-			<br><br>
-			<a class="btn btn-danger btn-block float-right" href="team_list.php?id={$row['teamid']}">Delete Team</a>
+		<div class="col-lg-6">
+			<h2>{$row['sportname']}</h2>
+			<a class="btn btn-danger btn-block float-right" href="team_list.php?id={$row['sportid']}">Delete Sport</a>
 		</div>
 	  </div>
 
@@ -370,67 +362,61 @@ function get_sports_co(){
 					
 DELIMETER;
 echo $team;
+	}
+	if($team == NULL){
+		echo "<div class=\"text-center\"><h2>No Sports Listed</h2></div>";
 	}
 }
 
-function get_sports_women(){
-	$query = query("SELECT * FROM sport");
+function get_sports_women($id){
+	$query = query("SELECT * FROM sportswomen WHERE teamid = '$id'");
 	confirm($query);
-	
+	$team = NULL;
+
 	while($row = fetch_array($query)) {
 	$team = <<< DELIMETER
 
 	<hr>
 	  <div class="row text-center">
-	  	<div class="col-lg-4">
-			<h2>{$row['teamname']}</h2>
-			<a class="btn btn-primary btn-block float-right" href="team_update.php?id={$row['teamid']}">Update Team</a>
+	  	<div class="col-lg-6">
+			<h2>Women: </h2>
+			<a class="btn btn-primary btn-block float-right" href="team_update.php?id={$row['teamid']}">Update Sport</a>
 		</div>
-		<div class="col-lg-4">
-			<a href="team.php">
-				<div class="card">
-					<img class="card-img-top my-auto img-fluid" src="{$row['teamimg']}" alt="Team Image">
-				</div>
-			</a>
-	  	</div>
-		<div class="col-lg-4">
-			<br><br>
-			<a class="btn btn-danger btn-block float-right" href="team_list.php?id={$row['teamid']}">Delete Team</a>
+		<div class="col-lg-6">
+			<h2>{$row['sportname']}</h2>
+			<a class="btn btn-danger btn-block float-right" href="team_list.php?id={$row['sportid']}">Delete Sport</a>
 		</div>
 	  </div>
 
 	<hr>
-
 					
 DELIMETER;
 echo $team;
 	}
+	if($team == NULL){
+		echo "<div class=\"text-center\"><h2>No Sports Listed</h2></div>";
+	}
+	
 }
 
 
-function get_sports_men(){
-	$query = query("SELECT * FROM sport");
+function get_sports_men($id){
+	$query = query("SELECT * FROM sportsmen WHERE teamid = '$id'");
 	confirm($query);
-	
+	$team = NULL;
+
 	while($row = fetch_array($query)) {
 	$team = <<< DELIMETER
 
 	<hr>
 	  <div class="row text-center">
-	  	<div class="col-lg-4">
-			<h2>{$row['teamname']}</h2>
-			<a class="btn btn-primary btn-block float-right" href="team_update.php?id={$row['teamid']}">Update Team</a>
+	  	<div class="col-lg-6">
+			<h2>Men: </h2>
+			<a class="btn btn-primary btn-block float-right" href="team_update.php?id={$row['teamid']}">Update Sport</a>
 		</div>
-		<div class="col-lg-4">
-			<a href="team.php">
-				<div class="card">
-					<img class="card-img-top my-auto img-fluid" src="{$row['teamimg']}" alt="Team Image">
-				</div>
-			</a>
-	  	</div>
-		<div class="col-lg-4">
-			<br><br>
-			<a class="btn btn-danger btn-block float-right" href="team_list.php?id={$row['teamid']}">Delete Team</a>
+		<div class="col-lg-6">
+			<h2>{$row['sportname']}</h2>
+			<a class="btn btn-danger btn-block float-right" href="team_list.php?id={$row['sportid']}">Delete Sport</a>
 		</div>
 	  </div>
 
@@ -440,5 +426,9 @@ function get_sports_men(){
 DELIMETER;
 echo $team;
 	}
+	if($team == NULL){
+		echo "<div class=\"text-center\"><h2>No Sports Listed</h2></div>";
+	}
+
 }
 ?>
